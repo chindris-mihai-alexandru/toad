@@ -1,7 +1,7 @@
 # NVIDIA NIM ACP Client for Toad
 # Pull Request to add NVIDIA NIM support to Toad
 
-identity = "nvidia-nim"
+identity = "nim.nvidia.com"
 name = "NVIDIA NIM (Kimi K2.5)"
 short_name = "nvidia-nim"
 url = "https://build.nvidia.com/"
@@ -15,7 +15,7 @@ description = """
 Use Kimi K2.5 and other models via NVIDIA NIM API.
 Sign up at https://build.nvidia.com/settings/api-keys for free API key.
 """
-tags = ["coding", "llm", "nvidia", "kimi"]
+tags = []
 
 run_command."*" = "nvidia-nim-acp"
 
@@ -39,7 +39,7 @@ Use Kimi K2.5 and other models via NVIDIA NIM API.
 ## Models
 
 - Kimi K2.5 (moonshotai/kimi-k2.5) - Best for coding
-- Kimi K2 (moonshotai/kimi-k2)
+- Kimi K2 Instruct (moonshotai/kimi-k2-instruct)
 - Kimi K2 Thinking (moonshotai/kimi-k2-thinking)
 - And many more from NVIDIA NIM catalog
 
